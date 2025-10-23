@@ -1099,3 +1099,854 @@ LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
 [2025.10.23-09.17.45:542][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: fe73c5cbf618a10878391ebdbe3aa9b6ca1dc549), compiling. 
 [2025.10.23-09.17.45:600][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 50db9541567043cb5b4b2dc973141e9babc5f5fb), compiling. 
 [2025.10.23-09.17.47:313][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.10.23-09.19.41:465][  0]LogDerivedDataCache: C:/Users/TEMP.AUSTD.003/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.23-09.24.26:814][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 57, format PCD3D_SM6) compile time exceeded threshold (37.668s)
+[2025.10.23-09.25.44:692][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 52, format PCD3D_SM6) compile time exceeded threshold (62.950s)
+[2025.10.23-09.26.19:328][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 58, format PCD3D_SM6) compile time exceeded threshold (37.924s)
+[2025.10.23-09.26.49:092][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 49, format PCD3D_SM6) compile time exceeded threshold (35.690s)
+[2025.10.23-09.26.52:150][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 50, format PCD3D_SM6) compile time exceeded threshold (32.750s)
+[2025.10.23-09.27.00:758][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 53, format PCD3D_SM6) compile time exceeded threshold (70.849s)
+[2025.10.23-09.27.20:259][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 48, format PCD3D_SM6) compile time exceeded threshold (32.416s)
+[2025.10.23-09.27.22:201][  0]LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 56, format PCD3D_SM6) compile time exceeded threshold (44.105s)
+[2025.10.23-09.28.04:457][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: ce28595bbe70ffa46c3d2cf42127c5388464c97d), compiling. 
+[2025.10.23-09.28.04:459][  0]LogTurnkeySupport: Turnkey Device: Win64@GPU7: (Name=GPU7, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.10.23-09.28.06:568][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.10.23-09.28.06:568][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.10.23-09.28.06:568][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.10.23-09.28.06:568][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.10.23-09.28.06:568][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.10.23-09.28.06:577][  0]LogStaticMesh: Display: Building static mesh PlanarReflectionPlane (Required Memory Estimate: 2.920407 MB)...
+[2025.10.23-09.28.06:670][  0]LogStaticMesh: Built static mesh [0.10s] /Engine/EditorMeshes/PlanarReflectionPlane.PlanarReflectionPlane
+[2025.10.23-09.28.07:972][  0]LogStaticMesh: Display: Building static mesh MatineeCam_SM (Required Memory Estimate: 6.455061 MB)...
+[2025.10.23-09.28.07:999][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM
+[2025.10.23-09.28.08:187][  0]LogConfig: Branch 'PIEPreviewSettings' had been unloaded. Reloading on-demand took 0.80ms
+[2025.10.23-09.28.08:240][  0]LogConfig: Branch 'GameplayTagsList' had been unloaded. Reloading on-demand took 0.82ms
+[2025.10.23-09.28.08:259][  0]LogConfig: Branch 'TemplateDefs' had been unloaded. Reloading on-demand took 0.80ms
+[2025.10.23-09.28.08:261][  0]LogConfig: Branch 'TemplateCategories' had been unloaded. Reloading on-demand took 0.82ms
+[2025.10.23-09.28.08:584][  0]LogStaticMesh: Display: Building static mesh SM_CineCam (Required Memory Estimate: 8.902487 MB)...
+[2025.10.23-09.28.08:684][  0]LogStaticMesh: Built static mesh [0.10s] /Engine/EditorMeshes/Camera/SM_CineCam.SM_CineCam
+[2025.10.23-09.28.08:718][  0]LogStaticMesh: Display: Building static mesh EditorCube (Required Memory Estimate: 0.02689 MB)...
+[2025.10.23-09.28.08:719][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCube.EditorCube
+[2025.10.23-09.28.08:731][  0]LogStaticMesh: Display: Building static mesh EditorSphere (Required Memory Estimate: 6.269289 MB)...
+[2025.10.23-09.28.08:755][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/EditorSphere.EditorSphere
+[2025.10.23-09.28.08:761][  0]LogStaticMesh: Display: Building static mesh EditorPlane (Required Memory Estimate: 0.05422 MB)...
+[2025.10.23-09.28.08:762][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorPlane.EditorPlane
+[2025.10.23-09.28.08:764][  0]LogStaticMesh: Display: Building static mesh EditorCylinder (Required Memory Estimate: 0.714823 MB)...
+[2025.10.23-09.28.08:767][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCylinder.EditorCylinder
+[2025.10.23-09.28.08:783][  0]LogStaticMesh: Display: Building static mesh EditorSkySphere (Required Memory Estimate: 7.540967 MB)...
+[2025.10.23-09.28.08:806][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/EditorSkySphere.EditorSkySphere
+[2025.10.23-09.28.08:918][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.10.23-09.28.08:918][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.10.23-09.28.08:922][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.10.23-09.28.08:922][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.10.23-09.28.08:923][  0]LogLiveCoding: Display: First instance in process group "UE_MyProject_0x99bf4dc1", spawning console
+[2025.10.23-09.28.08:934][  0]LogLiveCoding: Display: Waiting for server
+[2025.10.23-09.28.08:943][  0]LogSlate: Border
+[2025.10.23-09.28.08:943][  0]LogSlate: BreadcrumbButton
+[2025.10.23-09.28.08:943][  0]LogSlate: Brushes.Title
+[2025.10.23-09.28.08:943][  0]LogSlate: Default
+[2025.10.23-09.28.08:943][  0]LogSlate: Icons.Save
+[2025.10.23-09.28.08:943][  0]LogSlate: Icons.Toolbar.Settings
+[2025.10.23-09.28.08:943][  0]LogSlate: ListView
+[2025.10.23-09.28.08:943][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.10.23-09.28.08:943][  0]LogSlate: SoftwareCursor_Grab
+[2025.10.23-09.28.08:943][  0]LogSlate: TableView.DarkRow
+[2025.10.23-09.28.08:943][  0]LogSlate: TableView.Row
+[2025.10.23-09.28.08:943][  0]LogSlate: TreeView
+[2025.10.23-09.28.09:044][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.10.23-09.28.09:048][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 4.134 ms
+[2025.10.23-09.28.09:059][  0]LogConfig: Branch 'Mass' had been unloaded. Reloading on-demand took 0.84ms
+[2025.10.23-09.28.09:075][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.10.23-09.28.09:075][  0]LogInit: XR: MultiViewport is Disabled
+[2025.10.23-09.28.09:075][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.10.23-09.28.09:116][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.10.23-09.28.09:121][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.10.23-09.28.09:121][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.10.23-09.28.09:122][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:53774'.
+[2025.10.23-09.28.09:125][  0]LogUdpMessaging: Display: Added local interface '172.30.7.7' to multicast group '230.0.0.1:6666'
+[2025.10.23-09.28.09:125][  0]LogUdpMessaging: Display: Added local interface '192.168.83.1' to multicast group '230.0.0.1:6666'
+[2025.10.23-09.28.09:125][  0]LogUdpMessaging: Display: Added local interface '192.168.189.1' to multicast group '230.0.0.1:6666'
+[2025.10.23-09.28.09:177][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.10.23-09.28.09:177][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 2080 (Compute, Graphics)
+[2025.10.23-09.28.09:177][  0]LogNNERuntimeORT: 1: Intel(R) UHD Graphics P630 (Compute, Graphics)
+[2025.10.23-09.28.09:180][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.10.23-09.28.09:180][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.10.23-09.28.09:379][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.10.23-09.28.09:379][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.10.23-09.28.09:401][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.10.23-09.28.09:967][  0]LogConfig: Branch 'TranslationPickerSettings' had been unloaded. Reloading on-demand took 0.82ms
+[2025.10.23-09.28.10:082][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 02D30B09549B462F8000000000006600 | Instance: 9748921F4B089816280037A52485228E (GPU7-11116).
+[2025.10.23-09.28.10:499][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.10.23-09.28.10:520][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.10.23-09.28.10:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.10.23-09.28.10:546][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.23-09.28.10:546][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.23-09.28.10:627][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hd/resources/plugInfo.json'
+[2025.10.23-09.28.10:628][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdrGlslfx/resources/plugInfo.json'
+[2025.10.23-09.28.10:628][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdx/resources/plugInfo.json'
+[2025.10.23-09.28.10:628][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdHydra/resources/plugInfo.json'
+[2025.10.23-09.28.10:629][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRi/resources/plugInfo.json'
+[2025.10.23-09.28.10:629][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdLux/resources/plugInfo.json'
+[2025.10.23-09.28.10:630][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdSt/resources/plugInfo.json'
+[2025.10.23-09.28.10:630][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/plugInfo.json'
+[2025.10.23-09.28.10:631][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImaging/resources/plugInfo.json'
+[2025.10.23-09.28.10:631][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ndr/resources/plugInfo.json'
+[2025.10.23-09.28.10:631][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProcImaging/resources/plugInfo.json'
+[2025.10.23-09.28.10:632][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkel/resources/plugInfo.json'
+[2025.10.23-09.28.10:633][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdGeom/resources/plugInfo.json'
+[2025.10.23-09.28.10:634][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMedia/resources/plugInfo.json'
+[2025.10.23-09.28.10:634][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRiPxrImaging/resources/plugInfo.json'
+[2025.10.23-09.28.10:634][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hio/resources/plugInfo.json'
+[2025.10.23-09.28.10:635][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVol/resources/plugInfo.json'
+[2025.10.23-09.28.10:636][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdPhysics/resources/plugInfo.json'
+[2025.10.23-09.28.10:636][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMtlx/resources/plugInfo.json'
+[2025.10.23-09.28.10:637][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdUI/resources/plugInfo.json'
+[2025.10.23-09.28.10:637][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShade/resources/plugInfo.json'
+[2025.10.23-09.28.10:638][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkelImaging/resources/plugInfo.json'
+[2025.10.23-09.28.10:638][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRender/resources/plugInfo.json'
+[2025.10.23-09.28.10:638][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ar/resources/plugInfo.json'
+[2025.10.23-09.28.10:639][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVolImaging/resources/plugInfo.json'
+[2025.10.23-09.28.10:639][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/glf/resources/plugInfo.json'
+[2025.10.23-09.28.10:639][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdGp/resources/plugInfo.json'
+[2025.10.23-09.28.10:640][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdStorm/resources/plugInfo.json'
+[2025.10.23-09.28.10:640][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdf/resources/plugInfo.json'
+[2025.10.23-09.28.10:640][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hgiGL/resources/plugInfo.json'
+[2025.10.23-09.28.10:641][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdAbc/resources/plugInfo.json'
+[2025.10.23-09.28.10:641][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShaders/resources/plugInfo.json'
+[2025.10.23-09.28.10:642][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProc/resources/plugInfo.json'
+[2025.10.23-09.28.10:642][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImagingGL/resources/plugInfo.json'
+[2025.10.23-09.28.10:642][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'E:/UE_5.5/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/codegenTemplates/plugInfo.json'
+[2025.10.23-09.28.10:802][  0]SourceControl: Revision control is disabled
+[2025.10.23-09.28.10:816][  0]SourceControl: Revision control is disabled
+[2025.10.23-09.28.10:844][  0]LogConfig: Branch 'ObjectMixerSerializedData' had been unloaded. Reloading on-demand took 0.80ms
+[2025.10.23-09.28.10:853][  0]LogConfig: Branch 'Crypto' had been unloaded. Reloading on-demand took 0.77ms
+[2025.10.23-09.28.11:241][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png' error.
+[2025.10.23-09.28.11:241][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png
+[2025.10.23-09.28.11:269][  0]LogCollectionManager: Loaded 0 collections in 0.001025 seconds
+[2025.10.23-09.28.11:272][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Saved/Collections/' took 0.00s
+[2025.10.23-09.28.11:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/Developers/2501667/Collections/' took 0.00s
+[2025.10.23-09.28.11:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/Collections/' took 0.00s
+[2025.10.23-09.28.11:342][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2025.10.23-09.28.11:342][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2025.10.23-09.28.11:343][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.10.23-09.28.11:343][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2025.10.23-09.28.11:343][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.10.23-09.28.11:343][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2025.10.23-09.28.11:370][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png' error.
+[2025.10.23-09.28.11:370][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png
+[2025.10.23-09.28.11:385][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-39599718 booting at 2025-10-23T09:28:11.385Z using C
+[2025.10.23-09.28.11:385][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.4768.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=MyProject, ProductVersion=++UE5+Release-5.5-CL-40574608, IsServer=false, Flags=DisableOverlay]
+[2025.10.23-09.28.11:385][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.10.23-09.28.11:386][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.10.23-09.28.11:390][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.10.23-09.28.11:391][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.10.23-09.28.11:391][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.10.23-09.28.11:391][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000082
+[2025.10.23-09.28.11:391][  0]LogFab: Display: Logging in using persist
+[2025.10.23-09.28.11:391][  0]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2025.10.23-09.28.11:421][  0]LogUObjectArray: 43612 objects as part of root set at end of initial load.
+[2025.10.23-09.28.11:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.10.23-09.28.11:434][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36295 public script object entries (984.23 KB)
+[2025.10.23-09.28.11:434][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.10.23-09.28.11:565][  0]LogEngine: Initializing Engine...
+[2025.10.23-09.28.11:568][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.10.23-09.28.11:568][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.10.23-09.28.11:740][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.10.23-09.28.11:758][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.10.23-09.28.11:767][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.10.23-09.28.11:767][  0]LogInit: Texture streaming: Enabled
+[2025.10.23-09.28.11:776][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.5.4-40574608+++UE5+Release-5.5
+[2025.10.23-09.28.11:783][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.10.23-09.28.11:790][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-09.28.11:791][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-09.28.11:791][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-09.28.11:796][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-09.28.12:841][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.10.23-09.28.12:841][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-09.28.12:843][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-09.28.12:843][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-09.28.12:843][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.10.23-09.28.12:844][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.10.23-09.28.12:845][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.10.23-09.28.12:845][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.10.23-09.28.12:845][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.10.23-09.28.12:845][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.10.23-09.28.12:845][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.10.23-09.28.12:851][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.10.23-09.28.12:855][  0]LogInit: Undo buffer set to 256 MB
+[2025.10.23-09.28.12:855][  0]LogInit: Transaction tracking system initialized
+[2025.10.23-09.28.12:978][  0]LogConfig: Branch 'LocalizationServiceSettings' had been unloaded. Reloading on-demand took 0.98ms
+[2025.10.23-09.28.12:981][  0]LocalizationService: Localization service is disabled
+[2025.10.23-09.28.12:994][  0]LogTimingProfiler: Initialize
+[2025.10.23-09.28.12:994][  0]LogTimingProfiler: OnSessionChanged
+[2025.10.23-09.28.12:994][  0]LoadingProfiler: Initialize
+[2025.10.23-09.28.12:994][  0]LoadingProfiler: OnSessionChanged
+[2025.10.23-09.28.12:994][  0]LogNetworkingProfiler: Initialize
+[2025.10.23-09.28.12:994][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.10.23-09.28.12:994][  0]LogMemoryProfiler: Initialize
+[2025.10.23-09.28.12:994][  0]LogMemoryProfiler: OnSessionChanged
+[2025.10.23-09.28.13:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/' took 0.01s
+[2025.10.23-09.28.13:343][  0]LogPython: Using Python 3.11.8
+[2025.10.23-09.28.14:479][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.10.23-09.28.14:493][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (1 permutations).
+[2025.10.23-09.28.14:605][  0]LogStreaming: Warning: Failed to read file 'Common/Selector.png' error.
+[2025.10.23-09.28.14:607][  0]LogSlate: Could not find file for Slate resource: Common/Selector.png
+[2025.10.23-09.28.14:619][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.10.23-09.28.14:637][  0]LogEditorDataStorage: Initializing
+[2025.10.23-09.28.14:639][  0]LogEditorDataStorage: Initialized
+[2025.10.23-09.28.14:651][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.10.23-09.28.14:667][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.10.23-09.28.14:671][  0]SourceControl: Revision control is disabled
+[2025.10.23-09.28.14:671][  0]LogUnrealEdMisc: Loading editor; pre map load, took 636.435
+[2025.10.23-09.28.14:768][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/UE_5.5/UE_5.5/FeaturePacks/StarterContent.upack)
+[2025.10.23-09.28.14:995][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2025.10.23-09.28.15:424][  0]LogAssetRegistry: Display: Asset registry cache written as 35.7 MiB to C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Intermediate/CachedAssetRegistry_*.bin
+[2025.10.23-09.28.15:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2025.10.23-09.28.15:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2025.10.23-09.28.15:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2025.10.23-09.28.15:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2025.10.23-09.28.15:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2025.10.23-09.28.15:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2025.10.23-09.28.15:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2025.10.23-09.28.15:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2025.10.23-09.28.15:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2025.10.23-09.28.15:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2025.10.23-09.28.15:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2025.10.23-09.28.15:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2025.10.23-09.28.15:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2025.10.23-09.28.15:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2025.10.23-09.28.15:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2025.10.23-09.28.15:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2025.10.23-09.28.15:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2025.10.23-09.28.15:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2025.10.23-09.28.15:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2025.10.23-09.28.15:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2025.10.23-09.28.15:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2025.10.23-09.28.15:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2025.10.23-09.28.15:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2025.10.23-09.28.15:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2025.10.23-09.28.15:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2025.10.23-09.28.15:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2025.10.23-09.28.15:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Fire01.uasset"
+[2025.10.23-09.28.15:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2025.10.23-09.28.15:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2025.10.23-09.28.15:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2025.10.23-09.28.15:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Light01.uasset"
+[2025.10.23-09.28.15:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2025.10.23-09.28.15:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Light02.uasset"
+[2025.10.23-09.28.15:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2025.10.23-09.28.15:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2025.10.23-09.28.15:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2025.10.23-09.28.15:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2025.10.23-09.28.15:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2025.10.23-09.28.16:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2025.10.23-09.28.16:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2025.10.23-09.28.16:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2025.10.23-09.28.16:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2025.10.23-09.28.16:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Steam01.uasset"
+[2025.10.23-09.28.16:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2025.10.23-09.28.16:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2025.10.23-09.28.16:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2025.10.23-09.28.16:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2025.10.23-09.28.16:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2025.10.23-09.28.16:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2025.10.23-09.28.16:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2025.10.23-09.28.16:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2025.10.23-09.28.16:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2025.10.23-09.28.16:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2025.10.23-09.28.16:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2025.10.23-09.28.16:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2025.10.23-09.28.16:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2025.10.23-09.28.16:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2025.10.23-09.28.16:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2025.10.23-09.28.16:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2025.10.23-09.28.16:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2025.10.23-09.28.16:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2025.10.23-09.28.16:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2025.10.23-09.28.16:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2025.10.23-09.28.16:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2025.10.23-09.28.16:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2025.10.23-09.28.16:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2025.10.23-09.28.16:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2025.10.23-09.28.16:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Maps/StarterMap.umap"
+[2025.10.23-09.28.16:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2025.10.23-09.28.16:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2025.10.23-09.28.16:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2025.10.23-09.28.16:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2025.10.23-09.28.16:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2025.10.23-09.28.16:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2025.10.23-09.28.16:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Door.uasset"
+[2025.10.23-09.28.16:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2025.10.23-09.28.16:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2025.10.23-09.28.16:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2025.10.23-09.28.16:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2025.10.23-09.28.16:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2025.10.23-09.28.16:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2025.10.23-09.28.16:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2025.10.23-09.28.16:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2025.10.23-09.28.16:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2025.10.23-09.28.16:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2025.10.23-09.28.16:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2025.10.23-09.28.16:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2025.10.23-09.28.16:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2025.10.23-09.28.16:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2025.10.23-09.28.16:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2025.10.23-09.28.16:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2025.10.23-09.28.16:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2025.10.23-09.28.16:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2025.10.23-09.28.16:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2025.10.23-09.28.16:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2025.10.23-09.28.16:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2025.10.23-09.28.16:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2025.10.23-09.28.17:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2025.10.23-09.28.17:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2025.10.23-09.28.17:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2025.10.23-09.28.17:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2025.10.23-09.28.17:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2025.10.23-09.28.17:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2025.10.23-09.28.17:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2025.10.23-09.28.17:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2025.10.23-09.28.17:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2025.10.23-09.28.17:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2025.10.23-09.28.17:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2025.10.23-09.28.17:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2025.10.23-09.28.17:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2025.10.23-09.28.17:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2025.10.23-09.28.17:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2025.10.23-09.28.17:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2025.10.23-09.28.17:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2025.10.23-09.28.17:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2025.10.23-09.28.17:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2025.10.23-09.28.17:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2025.10.23-09.28.17:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2025.10.23-09.28.17:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2025.10.23-09.28.17:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2025.10.23-09.28.17:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2025.10.23-09.28.17:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2025.10.23-09.28.17:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2025.10.23-09.28.17:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2025.10.23-09.28.17:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2025.10.23-09.28.17:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2025.10.23-09.28.17:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2025.10.23-09.28.17:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2025.10.23-09.28.17:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2025.10.23-09.28.17:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2025.10.23-09.28.17:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2025.10.23-09.28.17:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2025.10.23-09.28.17:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2025.10.23-09.28.17:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2025.10.23-09.28.17:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2025.10.23-09.28.17:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2025.10.23-09.28.17:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2025.10.23-09.28.17:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2025.10.23-09.28.17:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2025.10.23-09.28.17:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2025.10.23-09.28.17:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2025.10.23-09.28.17:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2025.10.23-09.28.17:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2025.10.23-09.28.17:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2025.10.23-09.28.18:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2025.10.23-09.28.18:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2025.10.23-09.28.18:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2025.10.23-09.28.18:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2025.10.23-09.28.18:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2025.10.23-09.28.18:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2025.10.23-09.28.18:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2025.10.23-09.28.18:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2025.10.23-09.28.18:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2025.10.23-09.28.18:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2025.10.23-09.28.18:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2025.10.23-09.28.18:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2025.10.23-09.28.18:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2025.10.23-09.28.18:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2025.10.23-09.28.18:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2025.10.23-09.28.18:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2025.10.23-09.28.18:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2025.10.23-09.28.18:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2025.10.23-09.28.18:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2025.10.23-09.28.18:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2025.10.23-09.28.18:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2025.10.23-09.28.18:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2025.10.23-09.28.18:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2025.10.23-09.28.19:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2025.10.23-09.28.19:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2025.10.23-09.28.19:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2025.10.23-09.28.19:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2025.10.23-09.28.19:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2025.10.23-09.28.19:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2025.10.23-09.28.19:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2025.10.23-09.28.19:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2025.10.23-09.28.19:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2025.10.23-09.28.19:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2025.10.23-09.28.19:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2025.10.23-09.28.19:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2025.10.23-09.28.19:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2025.10.23-09.28.19:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2025.10.23-09.28.19:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2025.10.23-09.28.19:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2025.10.23-09.28.19:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2025.10.23-09.28.19:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2025.10.23-09.28.19:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2025.10.23-09.28.19:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2025.10.23-09.28.20:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2025.10.23-09.28.20:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2025.10.23-09.28.20:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2025.10.23-09.28.20:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2025.10.23-09.28.20:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2025.10.23-09.28.20:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2025.10.23-09.28.20:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2025.10.23-09.28.20:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2025.10.23-09.28.20:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2025.10.23-09.28.20:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2025.10.23-09.28.20:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2025.10.23-09.28.20:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2025.10.23-09.28.20:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2025.10.23-09.28.20:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2025.10.23-09.28.20:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2025.10.23-09.28.20:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2025.10.23-09.28.21:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2025.10.23-09.28.21:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2025.10.23-09.28.21:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2025.10.23-09.28.21:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2025.10.23-09.28.21:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2025.10.23-09.28.21:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2025.10.23-09.28.21:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2025.10.23-09.28.21:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2025.10.23-09.28.21:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2025.10.23-09.28.21:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2025.10.23-09.28.21:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2025.10.23-09.28.21:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2025.10.23-09.28.21:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2025.10.23-09.28.21:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2025.10.23-09.28.21:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2025.10.23-09.28.21:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2025.10.23-09.28.21:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2025.10.23-09.28.21:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2025.10.23-09.28.21:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2025.10.23-09.28.21:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2025.10.23-09.28.21:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2025.10.23-09.28.21:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2025.10.23-09.28.21:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2025.10.23-09.28.21:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2025.10.23-09.28.21:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2025.10.23-09.28.21:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2025.10.23-09.28.21:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2025.10.23-09.28.21:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2025.10.23-09.28.22:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2025.10.23-09.28.22:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2025.10.23-09.28.22:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2025.10.23-09.28.22:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2025.10.23-09.28.22:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2025.10.23-09.28.22:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2025.10.23-09.28.22:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2025.10.23-09.28.22:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2025.10.23-09.28.22:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2025.10.23-09.28.22:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2025.10.23-09.28.22:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2025.10.23-09.28.22:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2025.10.23-09.28.22:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2025.10.23-09.28.22:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2025.10.23-09.28.22:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2025.10.23-09.28.22:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2025.10.23-09.28.22:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2025.10.23-09.28.22:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2025.10.23-09.28.22:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2025.10.23-09.28.22:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2025.10.23-09.28.22:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2025.10.23-09.28.22:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2025.10.23-09.28.22:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2025.10.23-09.28.22:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2025.10.23-09.28.22:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2025.10.23-09.28.22:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2025.10.23-09.28.22:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2025.10.23-09.28.22:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2025.10.23-09.28.22:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2025.10.23-09.28.22:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2025.10.23-09.28.22:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2025.10.23-09.28.22:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2025.10.23-09.28.22:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2025.10.23-09.28.22:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2025.10.23-09.28.22:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2025.10.23-09.28.22:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2025.10.23-09.28.22:618][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2025.10.23-09.28.22:780][  0]LogTexture: Display: Waiting for textures to be ready 25/26 (/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight) ...
+[2025.10.23-09.28.23:319][  0]LogTexture: Display: Building textures: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight (RGBA16F, 7372x3686 x1x1x1) (Required Memory Estimate: 543.287506 MB), EncodeSpeed: Fast
+[2025.10.23-09.28.24:734][  0]LogMeshUtilities: Finished distance field build in 1.2s - 49x49x49 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 92% occupied, 4 triangles, EditorCube
+[2025.10.23-09.28.25:004][  0]LogMeshUtilities: Finished distance field build in 1.5s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 682 triangles, PlanarReflectionPlane
+[2025.10.23-09.28.25:352][  0]LogMeshUtilities: Finished distance field build in 1.8s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 1322 triangles, EditorSphere
+[2025.10.23-09.28.26:834][  0]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 1322 triangles, EditorSkySphere
+[2025.10.23-09.28.27:078][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-09.28.27:657][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight] ([1] browsable assets)...
+[2025.10.23-09.28.27:657][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight]
+[2025.10.23-09.28.28:160][  0]LogSavePackage: Moving output files for package: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2025.10.23-09.28.28:160][  0]LogSavePackage: Moving 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Saved/HDRI_Epic_Courtyard_Daylight55E293A24A5AAA714C909BB24FBA5999.tmp' to 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset'
+[2025.10.23-09.28.28:209][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.13 sec
+[2025.10.23-09.28.28:209][  0]LogFeaturePack: Inserted 1 feature packs
+[2025.10.23-09.28.28:210][  0]Cmd: MAP LOAD FILE="C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/FirstPerson/Maps/FirstPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.23-09.28.28:212][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-09.28.28:212][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-09.28.28:221][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-09.28.28:224][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.10.23-09.28.28:444][  0]LogTexture: Display: Building textures: /Game/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.CA_Mannequin (RGBA16F, 64x64 x1x1x1) (Required Memory Estimate: 1.177074 MB), EncodeSpeed: Fast
+[2025.10.23-09.28.28:497][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2025.10.23-09.28.28:497][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.10.23-09.28.28:500][  0]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.23-09.28.28:500][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-09.28.28:500][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-09.28.28:592][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.10.23-09.28.28:611][  0]LogStaticMesh: Display: Building static mesh SM_Cube (Required Memory Estimate: 0.026302 MB)...
+[2025.10.23-09.28.28:611][  0]LogStaticMesh: Display: Building static mesh SM_ChamferCube (Required Memory Estimate: 0.297096 MB)...
+[2025.10.23-09.28.28:611][  0]LogStaticMesh: Display: Building static mesh SM_QuarterCylinder (Required Memory Estimate: 0.061604 MB)...
+[2025.10.23-09.28.28:611][  0]LogStaticMesh: Display: Building static mesh SM_Ramp (Required Memory Estimate: 0.020414 MB)...
+[2025.10.23-09.28.28:637][  0]LogStaticMesh: Built static mesh [0.05s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2025.10.23-09.28.28:637][  0]LogStaticMesh: Built static mesh [0.04s] /Game/LevelPrototyping/Meshes/SM_Ramp.SM_Ramp
+[2025.10.23-09.28.28:639][  0]LogStaticMesh: Built static mesh [0.05s] /Game/LevelPrototyping/Meshes/SM_QuarterCylinder.SM_QuarterCylinder
+[2025.10.23-09.28.28:639][  0]LogStaticMesh: Built static mesh [0.04s] /Game/LevelPrototyping/Meshes/SM_ChamferCube.SM_ChamferCube
+[2025.10.23-09.28.28:692][  0]LogStaticMesh: Display: Building static mesh FirstPersonProjectileMesh (Required Memory Estimate: 0.756426 MB)...
+[2025.10.23-09.28.28:703][  0]LogWorldPartition: Display: WorldPartition initialize took 202.455 ms
+[2025.10.23-09.28.28:707][  0]LogStaticMesh: Built static mesh [0.02s] /Game/FPWeapon/Mesh/FirstPersonProjectileMesh.FirstPersonProjectileMesh
+[2025.10.23-09.28.28:721][  0]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_FPGun) ...
+[2025.10.23-09.28.28:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.23-09.28.28:771][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.23-09.28.28:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.23-09.28.28:771][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.636ms to complete.
+[2025.10.23-09.28.28:777][  0]LogUnrealEdMisc: Total Editor Startup Time, took 650.542
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Total job queries 11,480, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 2,675 (23.30%)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Tracking 8,805 distinct input hashes that result in 8,331 distinct outputs (94.62%)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: RAM used: 6.30 MiB of 819.20 MiB budget. Usage: 0.77%
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Shaders Compiled: 8,805
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Jobs assigned 8,805, completed 8,805 (100%)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Average time worker was idle: 0.01 s
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 300.72 s, longest 615.76 s
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Job execution time: average 6.28 s, max 76.03 s
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 307.00 s, max 616.51
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Shader code size: average 14.197 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 620.79 s
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Jobs were issued in 904 batches (only local compilation was used), average 9.74 jobs/batch
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Average processing rate: 14.18 jobs/sec
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Total thread time: 5,468.679 s
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Total thread preprocess time: 126.946 s
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Percentage time preprocessing: 2.32%
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Effective parallelization: 8.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 9
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.26 sec, max 15.26 sec, min 15.26 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 9.46 sec, max 15.84 sec, min 5.60 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.94 sec, max 7.86 sec, min 1.46 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                    FRayTracingPrimaryRaysRGS (compiled    2 times, average 3.39 sec, max 3.42 sec, min 3.36 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.58% of total time (compiled  454 times, average 1.64 sec, max 2.57 sec, min 1.13 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.13% of total time (compiled  260 times, average 2.34 sec, max 5.73 sec, min 0.00 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 10.99% of total time (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 6.09% of total time (compiled  480 times, average 0.69 sec, max 4.28 sec, min 0.31 sec)
+[2025.10.23-09.28.28:779][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.87% of total time (compiled   72 times, average 2.94 sec, max 4.64 sec, min 2.04 sec)
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: Materials Translated:    134
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: Material Translation Only: 0.05 s (29%)
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.23-09.28.28:780][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.28.28:925][  0]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.23-09.28.29:007][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.28.29:062][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.28.29:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.28.29:167][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.28.29:227][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:227][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:227][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:227][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:227][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:227][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:229][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:229][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:229][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:229][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:229][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:229][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:229][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:230][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:230][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:230][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:231][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:231][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:231][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.23-09.28.29:231][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.5/UE_5.5/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.10.23-09.28.29:332][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.10.23-09.28.29:345][  0]LogSlate: Took 0.009390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.10.23-09.28.29:357][  0]LogSlate: Took 0.010419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.10.23-09.28.29:395][  0]LogNNEDenoiser: ApplySettings: bDenoiserEnabled 1
+[2025.10.23-09.28.29:434][  0]LogNNEDenoiser: Loaded input mapping from NNEDIM_ColorAlbedoNormal_Alpha
+[2025.10.23-09.28.29:434][  0]LogNNEDenoiser: Loaded output mapping from NNEDOM_Output_Alpha
+[2025.10.23-09.28.29:434][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.10.23-09.28.29:494][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.10.23-09.28.29:494][  0]LogNNEDenoiser: Create denoiser from asset /NNEDenoiser/NNED_Oidn2-3_Balanced_Alpha.NNED_Oidn2-3_Balanced_Alpha...
+[2025.10.23-09.28.29:495][  0]LogNNEDenoiser: Loaded input mapping from NNEDTIM_ColorAlbedoNormal_Alpha
+[2025.10.23-09.28.29:495][  0]LogNNEDenoiser: Loaded output mapping from NNEDTOM_Output_Alpha
+[2025.10.23-09.28.29:495][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.10.23-09.28.29:547][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.10.23-09.28.29:547][  0]LogNNEDenoiser: Create temporal denoiser from asset /NNEDenoiser/NNEDT_Oidn2-3_Balanced_Alpha.NNEDT_Oidn2-3_Balanced_Alpha...
+[2025.10.23-09.28.30:611][  0]LogD3D12RHI: Creating RTPSO with 21 shaders (0 cached, 21 new) took 903.19 ms. Compile time 870.29 ms, link time 32.77 ms.
+[2025.10.23-09.28.30:755][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (12 graphics, 38 compute). 0 of them were precached.
+[2025.10.23-09.28.31:316][  0]LogStall: Startup...
+[2025.10.23-09.28.31:319][  0]LogStall: Startup complete.
+[2025.10.23-09.28.31:360][  0]LogLoad: (Engine Initialization) Total time: 653.12 seconds
+[2025.10.23-09.28.31:737][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.10.23-09.28.31:778][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 17285.73 ms.
+[2025.10.23-09.28.31:918][  0]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-09.28.31:918][  0]LogContentValidation: Enabled validators:
+[2025.10.23-09.28.31:918][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-09.28.31:918][  0]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-09.28.31:918][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-09.28.31:918][  0]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-09.28.31:918][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-09.28.31:918][  0]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-09.28.31:918][  0]AssetCheck: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight Validating asset
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Total job queries 11,605, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 2,677 (23.07%)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Tracking 8,928 distinct input hashes that result in 8,331 distinct outputs (93.31%)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: RAM used: 6.30 MiB of 819.20 MiB budget. Usage: 0.77%
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Shaders Compiled: 8,805
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Jobs assigned 8,814, completed 8,805 (99.90%)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Average time worker was idle: 0.26 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 300.42 s, longest 615.76 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Job execution time: average 6.28 s, max 76.03 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 307.00 s, max 616.51
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Shader code size: average 14.197 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 620.79 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Jobs were issued in 913 batches (only local compilation was used), average 9.65 jobs/batch
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Average processing rate: 14.18 jobs/sec
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Total thread time: 5,468.679 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Total thread preprocess time: 126.946 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Percentage time preprocessing: 2.32%
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Effective parallelization: 8.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 9
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.26 sec, max 15.26 sec, min 15.26 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 9.46 sec, max 15.84 sec, min 5.60 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.94 sec, max 7.86 sec, min 1.46 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                    FRayTracingPrimaryRaysRGS (compiled    2 times, average 3.39 sec, max 3.42 sec, min 3.36 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.58% of total time (compiled  454 times, average 1.64 sec, max 2.57 sec, min 1.13 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.13% of total time (compiled  260 times, average 2.34 sec, max 5.73 sec, min 0.00 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 10.99% of total time (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 6.09% of total time (compiled  480 times, average 0.69 sec, max 4.28 sec, min 0.31 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.87% of total time (compiled   72 times, average 2.94 sec, max 4.64 sec, min 2.04 sec)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Materials Translated:    135
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Material Translation Only: 0.05 s (29%)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.23-09.28.31:933][  0]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.28.31:981][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.10.23-09.28.31:981][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.10.23-09.28.32:061][  0]LogAutomationController: Ignoring very large delta of 16801463.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.23-09.28.32:061][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-09.28.32:064][  0]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2025.10.23-09.28.32:064][  0]LogFab: Display: Logging in using exchange code
+[2025.10.23-09.28.32:064][  0]LogFab: Display: Reading exchange code from commandline
+[2025.10.23-09.28.32:064][  0]LogEOSSDK: Error: LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[2025.10.23-09.28.32:064][  0]LogPython: Display: Running start-up script E:/UE_5.5/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.10.23-09.28.32:113][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.10.23-09.28.32:151][  0]LogPython: Display: Running start-up script E:/UE_5.5/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 85.909 ms
+[2025.10.23-09.28.32:439][  1]LogAssetRegistry: AssetRegistryGather time 2.1008s: AssetDataDiscovery 0.1830s, AssetDataGather 1.8204s, StoreResults 0.0974s. Wall time 648.2030s.
+	NumCachedDirectories 0. NumUncachedDirectories 1637. NumCachedFiles 0. NumUncachedFiles 7918.
+	BackgroundTickInterruptions 0.
+[2025.10.23-09.28.32:479][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.10.23-09.28.32:485][  1]LogSourceControl: Uncontrolled asset enumeration started...
+[2025.10.23-09.28.32:551][  1]LogFab: Error: Login failed - error code: EOS_InvalidParameters
+[2025.10.23-09.28.32:624][  3]LogPSOHitching: Encountered 100 PSO creation hitches so far (28 graphics, 72 compute). 0 of them were precached.
+[2025.10.23-09.28.32:815][  4]LogSourceControl: Uncontrolled asset enumeration finished in 0.329668 seconds (Found 7626 uncontrolled assets)
+[2025.10.23-09.28.33:277][ 16]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 21.684433
+[2025.10.23-09.28.33:278][ 16]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.10.23-09.28.33:280][ 16]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21.886406
+[2025.10.23-09.28.33:626][ 38]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.10.23-09.28.33:895][ 62]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 22.496634
+[2025.10.23-09.28.33:898][ 62]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1237667838
+[2025.10.23-09.28.33:898][ 62]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22.496634, Update Interval: 336.666168
+[2025.10.23-09.30.50:651][797]LogPSOHitching: Encountered 150 PSO creation hitches so far (55 graphics, 95 compute). 0 of them were precached.
+[2025.10.23-09.30.52:207][929]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-09.30.52:290][929]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-09.30.52:290][929]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.10.23-09.30.52:333][929]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 42.731 ms
+[2025.10.23-09.30.52:383][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-09.30.52:449][929]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.23-09.30.52:450][929]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.23-09.30.52:478][929]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.10.23-09.30.52:529][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051201s)
+[2025.10.23-09.30.52:529][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.051311s)
+[2025.10.23-09.30.52:567][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.23-09.30.52:576][929]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.10.23-09.30.52:590][929]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-09.30.52:590][929]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-09.30.52:590][929]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-09.30.52:590][929]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-09.30.52:613][929]LogWorldPartition: Display: WorldPartition initialize took 23.040 ms (total: 225.496 ms)
+[2025.10.23-09.30.52:613][929]LogPlayLevel: PIE: World Init took: (0.036384s)
+[2025.10.23-09.30.52:617][929]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-09.30.52:617][929]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-09.30.52:617][929]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-09.30.52:617][929]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-09.30.52:617][929]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-09.30.52:617][929]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-09.30.52:619][929]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-09.30.52:635][929]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.10.23-09.30.52:635][929]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-09.30.52:635][929]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-09.30.52:635][929]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-09.30.52:635][929]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.23-09.30.52:635][929]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.23-09.30.52:638][929]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.23-09.30.52:638][929]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.23-09.30.52:638][929]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.23-09.30.52:638][929]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2025.10.23-09.30.52:638][929]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.23-09.30.52:697][929]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-09.30.52:752][929]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.10.23-14.30.52
+[2025.10.23-09.30.52:763][929]LogWorld: Bringing up level for play took: 0.029140
+[2025.10.23-09.30.52:785][929]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2025.10.23-09.30.53:577][929]PIE: Server logged in
+[2025.10.23-09.30.53:577][929]PIE: Play in editor total start time 1.34 seconds.
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Total job queries 11,648, among them cache hits 8 (0.07%), DDC hits 0 (0.00%), Duplicates 2,677 (22.98%)
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Tracking 8,963 distinct input hashes that result in 8,471 distinct outputs (94.51%)
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: RAM used: 6.36 MiB of 819.20 MiB budget. Usage: 0.78%
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Shaders Compiled: 8,963
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Jobs assigned 8,963, completed 8,963 (100%)
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Average time worker was idle: 1.22 s
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Time job spent in pending queue: average 295.57 s, longest 615.76 s
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Job execution time: average 6.37 s, max 76.03 s
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Job life time (pending + execution): average 301.94 s, max 616.51
+[2025.10.23-09.31.31:936][256]LogShaderCompilers: Display: Shader code size: average 14.293 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 670.29 s
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Jobs were issued in 989 batches (only local compilation was used), average 9.06 jobs/batch
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Average processing rate: 13.37 jobs/sec
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Total thread time: 5,757.712 s
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Total thread preprocess time: 130.74 s
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Percentage time preprocessing: 2.27%
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Effective parallelization: 8.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.26 sec, max 15.26 sec, min 15.26 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 9.46 sec, max 15.84 sec, min 5.60 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.94 sec, max 7.86 sec, min 1.46 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                    FRayTracingPrimaryRaysRGS (compiled    2 times, average 3.39 sec, max 3.42 sec, min 3.36 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.90% of total time (compiled  454 times, average 1.64 sec, max 2.57 sec, min 1.13 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.57% of total time (compiled  260 times, average 2.34 sec, max 5.73 sec, min 0.00 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 10.43% of total time (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.78% of total time (compiled  480 times, average 0.69 sec, max 4.28 sec, min 0.31 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.68% of total time (compiled   72 times, average 2.94 sec, max 4.64 sec, min 2.04 sec)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Materials Translated:    135
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Material Translation Only: 0.05 s (29%)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.23-09.31.31:938][256]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.34.10:565][240]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 359.175415
+[2025.10.23-09.34.10:833][272]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-09.34.10:833][273]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 359.433228, Update Interval: 300.395508
+[2025.10.23-09.36.42:443][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.36.42:453][430]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.10.23-09.36.42:480][430]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-09.36.42:482][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-09.36.42:482][430]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.10.23-09.36.42:505][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-09.36.42:525][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-09.36.42:546][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-09.36.42:546][430]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.23-09.36.42:546][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.10.23-09.36.42:550][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.10.23-09.36.42:577][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.10.23-09.36.42:641][431]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2025.10.23-09.36.47:509][779]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.10.23-09.36.50:281][990]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.10.23-09.36.55:960][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.10.23-09.36.55:963][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-09.36.56:061][519]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM
+[2025.10.23-09.36.56:063][519]LogSavePackage: Moving 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Saved/MG6FOV6QQX2CAZCGF7O9MMCF9C84E746BB2608065B17B084A2F574.tmp' to 'C:/Users/TEMP.AUSTD.003/Documents/gamedesign2501667/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset'
+[2025.10.23-09.36.56:129][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.806 ms (total: 1.29 sec)
+[2025.10.23-09.36.56:242][519]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-09.36.56:242][519]LogContentValidation: Enabled validators:
+[2025.10.23-09.36.56:242][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-09.36.56:242][519]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-09.36.56:242][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-09.36.56:242][519]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-09.36.56:242][519]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-09.36.56:242][519]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-09.36.56:242][519]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: ================================================
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Total job queries 11,658, among them cache hits 8 (0.07%), DDC hits 0 (0.00%), Duplicates 2,682 (23.01%)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Tracking 8,968 distinct input hashes that result in 8,474 distinct outputs (94.49%)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: RAM used: 6.36 MiB of 819.20 MiB budget. Usage: 0.78%
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Shaders Compiled: 8,968
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Jobs assigned 8,968, completed 8,968 (100%)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Average time worker was idle: 2.99 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Time job spent in pending queue: average 295.41 s, longest 615.76 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Job execution time: average 6.36 s, max 76.03 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Job life time (pending + execution): average 301.77 s, max 616.51
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Shader code size: average 14.29 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 672.97 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Jobs were issued in 994 batches (only local compilation was used), average 9.02 jobs/batch
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Average processing rate: 13.33 jobs/sec
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Total thread time: 5,761.387 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Total thread preprocess time: 130.896 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Percentage time preprocessing: 2.27%
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Effective parallelization: 8.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.26 sec, max 15.26 sec, min 15.26 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 9.46 sec, max 15.84 sec, min 5.60 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.94 sec, max 7.86 sec, min 1.46 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                    FRayTracingPrimaryRaysRGS (compiled    2 times, average 3.39 sec, max 3.42 sec, min 3.36 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.89% of total time (compiled  454 times, average 1.64 sec, max 2.57 sec, min 1.13 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.56% of total time (compiled  260 times, average 2.34 sec, max 5.73 sec, min 0.00 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 10.43% of total time (compiled   27 times, average 22.25 sec, max 70.85 sec, min 1.82 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.78% of total time (compiled  480 times, average 0.69 sec, max 4.28 sec, min 0.31 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.67% of total time (compiled   72 times, average 2.94 sec, max 4.64 sec, min 2.04 sec)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: === Material stats ===
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Materials Translated:    135
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Material Translation Only: 0.05 s (29%)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.23-09.37.32:231][240]LogShaderCompilers: Display: ================================================
